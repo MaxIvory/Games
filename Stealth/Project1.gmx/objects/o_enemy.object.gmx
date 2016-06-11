@@ -28,10 +28,11 @@
             <string>// Create skin
 skin=instance_create(x,y,o_enemy_skin);
 //detect bands
-detection_0 = 225;
-detection_1 = 135;
-detection_2 = 75;
-detection_3 = 25;
+modifyer=3;
+detection_0 = 130;
+detection_1 = 100;
+detection_2 = 70;
+detection_3 = 40;
 myX = x;
 myY = y;
 pX = 0;
@@ -115,32 +116,6 @@ else{
     }
     else{fast=0}
 }
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="8" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>draw_circle(x,y,detection_3,true);
-draw_circle(x,y,detection_2,true);
-draw_circle(x,y,detection_1,true);
-draw_circle(x,y,detection_0,true);
 </string>
           </argument>
         </arguments>

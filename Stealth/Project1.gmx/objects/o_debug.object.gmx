@@ -50,6 +50,10 @@ y=o_player_col.y;
           <argument>
             <kind>1</kind>
             <string>draw_circle(x,y,o_player_col.noise_level,true);
+draw_circle(o_enemy.x,o_enemy.y,o_enemy.detection_3,true);
+draw_circle(o_enemy.x,o_enemy.y,o_enemy.detection_2,true);
+draw_circle(o_enemy.x,o_enemy.y,o_enemy.detection_1,true);
+draw_circle(o_enemy.x,o_enemy.y,o_enemy.detection_0,true);
 </string>
           </argument>
         </arguments>

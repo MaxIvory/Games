@@ -25,10 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>view_xview[0] = (o_player.x+((mouse_x-o_player.x)/4.5))-view_wview[0]/2;
-view_yview[0] = (o_player.y+((mouse_y-o_player.y)/4.5))-view_hview[0]/2;
-
-if(mouse_check_button(mb_right)){
+            <string>if(mouse_check_button(mb_right)){
 view_xview[0] = (o_player.x+((mouse_x-o_player.x)/2.3))-view_wview[0]/2;
 view_yview[0] = (o_player.y+((mouse_y-o_player.y)/2.3))-view_hview[0]/2;
 }
